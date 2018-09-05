@@ -12,16 +12,16 @@ public class HelloWorld {
 		int yuuuh = input.nextInt();
 		
 			if(x>0 && yuuuh>0) {
-				System.out.println(1);
+				System.out.println(2);
 			}
 			if(x>0 && yuuuh<0) {
 				System.out.println(4);
 			}
 			if(x<0 && yuuuh>0) {
-				System.out.println(3);
+				System.out.println(1);
 			}
 			if(x<0 && yuuuh<0) {
-				System.out.println(2);
+				System.out.println(3);
 			}
 			
 	}	//main	
