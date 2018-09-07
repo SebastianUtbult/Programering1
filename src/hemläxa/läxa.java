@@ -11,8 +11,5 @@ public class läxa {
 		
 		String namn = input.nextLine();
 		
-		System.out.print("Du heter ");
-		System.out.print(namn);
-		
 	}
 }
