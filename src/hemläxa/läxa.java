@@ -10,6 +10,10 @@ public class läxa {
 		System.out.println("Vad är ditt namn?");
 		
 		String namn = input.nextLine();
+		String adress = input.nextLine();
+		String Postnummer = input.nextLine();
+		String stad = input.nextLine();
+		String telefonnummer = input.nextLine();
 		
 	}
 }
