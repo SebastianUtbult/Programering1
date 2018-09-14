@@ -77,5 +77,9 @@ public class villkor {
 		if(t10 < min) {
 			min = t10;
 		}
+		
+		System.out.println("Maxtal: " + max);
+		System.out.println("Lägsta tal: " + min);
+		
 	}
 }
