@@ -13,6 +13,7 @@ public class villkor {
 		int t1 = input.nextInt();
 		int min = t1;
 		int max = t1;
+		
 		int t2 = input.nextInt();
 		if(t2 > max) {
 			max = t2;
@@ -78,8 +79,11 @@ public class villkor {
 			min = t10;
 		}
 		
+		double summa = t1 + t2 + t3 + t4 + t5 + t6 + t7 + t8 + t9 + t10;
+		
 		System.out.println("Maxtal: " + max);
 		System.out.println("Lägsta tal: " + min);
+		System.out.println("Medeltal: " + summa / 10);
 		
 	}
 }
