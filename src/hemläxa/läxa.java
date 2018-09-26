@@ -9,19 +9,19 @@ public class läxa {
 		
 		Scanner input = new Scanner (System.in);
 		
-		System.out.print("Vad är ditt namn?");
+		System.out.print("Namn:");
 		String namn = input.nextLine();
 		
-		System.out.print("Vad är din adress?");
+		System.out.print("Adress:");
 		String adress = input.nextLine();
 		
-		System.out.print("Vad är ditt postnummer?");
+		System.out.print("Postnummer:");
 		String Postnummer = input.nextLine();
 		
-		System.out.print("Vad är din stad?");
+		System.out.print("Stad:");
 		String stad = input.nextLine();
 		
-		System.out.print("Vad är ditt telefonnummer?");
+		System.out.print("Telefonnummer:");
 		String telefonnummer = input.nextLine();
 		
 		System.out.println("Upgifter:");

@@ -23,6 +23,9 @@ public class HelloWorld {
 			if(x<0 && y<0) {
 				System.out.println("kvadrant 3");
 			}
+			else {
+				System.out.println("Origo");
+			}
 			
 	}	//main	
 	
